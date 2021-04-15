@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnDate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtDate"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDate"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/txtSwitcherLayout">
+
+    <TextSwitcher
+        android:id="@+id/txtSwitcher"
+        android:layout_width="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"/>
+
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="present"
+            android:id="@+id/cbPresent"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSwitcherLayout"
+        android:layout_marginLeft="25dp"
+        android:text="next RollNo"
+        android:id="@+id/btnNextRoll"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNextRoll"
+        android:id="@+id/text"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@id/btnNextRoll"
+        android:text="Click next button to switch between rollnos \n if the student is present then click the checkbox \n if absent move ahead to the next rollno"/>
+
+    <Button
+        android:id="@+id/submitAttend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit attendance"
+        android:layout_below="@id/text"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/submitAttend"
+    android:layout_marginTop="40dp"
+    android:id="@+id/attendText"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/attendText"
+        android:layout_marginTop="20dp"
+        android:id="@+id/showAttendance"/>
+
+
+</RelativeLayout>

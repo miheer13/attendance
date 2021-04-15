@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">gmeet noti</string>
+
+    <string-array name="rollNo">
+        <item>19-101</item>
+        <item>19-102</item>
+        <item>19-103</item>
+        <item>19-104</item>
+        <item>19-105</item>
+        <item>19-106</item>
+        <item>19-107</item>
+        <item>19-108</item>
+        <item>19-109</item>
+        <item>19-110</item>
+        <item>19-111</item>
+        <item>19-112</item>
+        <item>19-113</item>
+        <item>19-114</item>
+        <item>19-115</item>
+        <item>19-116</item>
+        <item>19-117</item>
+        <item>19-118</item>
+        <item>19-119</item>
+        <item>19-120</item>
+        <item>19-121</item>
+        <item>19-122</item>
+        <item>19-123</item>
+        <item>19-124</item>
+        <item>19-125</item>
+        <item>19-126</item>
+        <item>19-127</item>
+        <item>19-128</item>
+        <item>19-129</item>
+        <item>19-130</item>
+        <item>19-131</item>
+        <item>19-132</item>
+        <item>19-133</item>
+        <item>19-134</item>
+        <item>19-135</item>
+        <item>19-136</item>
+        <item>19-137</item>
+        <item>19-138</item>
+        <item>19-139</item>
+        <item>19-140</item>
+    </string-array>
+
+    <string-array name="user">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="subject">
+        <item>ed</item>
+        <item>ctlab</item>
+        <item>dc</item>
+        <item>dm</item>
+        <item>uilab</item>
+        <item>se</item>
+        <item>tws</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990718458223",
+    "project_id": "gmeet-noti",
+    "storage_bucket": "gmeet-noti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990718458223:android:25185131d6c7d595a2109a",
+        "android_client_info": {
+          "package_name": "com.miheer.gmeetnoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990718458223-elgs1jfigel3ip576lqfdkdls4hijmp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsBWScNSUkW9DyAwAiA0NgdJU_3NdE_qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990718458223-elgs1jfigel3ip576lqfdkdls4hijmp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
